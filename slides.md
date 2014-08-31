@@ -19,11 +19,11 @@
 ![Vue d'ensemble](overview.png)
 
 !SLIDE bullets incremental
-# Environnement #
-## Travailler avec un logiciel libre
+# Environnement
+## Travailler avec <br/> un logiciel libre
 
 * Sources, documentations, idées, ...
-* Rivendell = 9 ans de travail
+* Rivendell = 10 ans de travail
 * Collectif
 * Remonter l'information
 * rivendell-fr@lists.tryphon.org
@@ -50,13 +50,13 @@
 
 !SLIDE bullets
 # RdAirPlay
-## Des Carts et du son 
+## Des Carts et du son
 
 * Direct
 * Jingles, Musiques, Emissions, Reportages, ...
 * Plusieurs pistes sur la table
 
-!SLIDE bullets workshop
+!SLIDE bullets workshop imgside
 # RdAirPlay
 
 ![Carts](rdairplay-mainlog.png)
@@ -64,11 +64,11 @@
 ## MainLog
 
 * Ajouter un jingle et une musique
-* Essayer
+* Lancer
 * Mode Manuel, Automatique, Live Assist
-* Essayer avec annonce micro
+* Lancer avec annonce micro
 
-!SLIDE bullets workshop
+!SLIDE bullets workshop imgside
 # RdAirPlay
 
 ![Carts](rdairplay-soundpanel.png)
@@ -80,7 +80,7 @@
 * Enchainement avec MainLog
 * User / System
 
-!SLIDE bullets workshop
+!SLIDE bullets workshop imgside
 # RdAirPlay
 
 ![Carts](rdairplay-mainlog.png)
@@ -92,7 +92,7 @@
 * Pré-écoute
 * Ajouter / Déplacer
 
-!SLIDE bullets workshop
+!SLIDE bullets workshop imgside
 # RdAirPlay
 
 ![Automatique](rdairplay-automatic.png)
@@ -122,9 +122,10 @@
 ## A l'heure
 
 * Lancer un Cart avec Talk
-* Passer Next Stop à rouge et orange
+* Passer Next Stop à rouge
+* Passer Next Stop à orange
 
-!SLIDE bullets
+!SLIDE bullets imgside
 # RdLibrary
 
 ![RdLibrary](rdlibrary.png)
@@ -154,13 +155,14 @@
 * Un album en MP3
 * Une série d'émission
 
-!SLIDE bullets 
+!SLIDE bullets imgside
 # RdLibrary
 ## Son / Cut
 
 ![Cut - Son](rdlibrary-cut-markers.png)
 
 * Courbe
+* Pré-écoute
 * Marqueurs
 
 !SLIDE bullets workshop
@@ -171,7 +173,7 @@
 * Tester le fonctionnement d'un des marqueurs
 * Exporter un Son
 
-!SLIDE bullets 
+!SLIDE bullets imgside
 # RdLibrary
 
 ![Cart](rdlibrary.png)
@@ -190,6 +192,15 @@
 * Renseigner une musique
 * Renseigner une émission
 
+!SLIDE bullets workshop
+# RdLibrary
+## Magic Carts
+
+* Créer un Cart <br/> avec plusieurs jingles
+* Lancer dans SoundPanel
+* Créer un Cart <br/> avec les épisodes d'une émission
+* Lancer
+
 !SLIDE bullets center
 # RdLogEdit
 
@@ -204,7 +215,7 @@
 * Jingles
 * Reportages
 
-* > RdAirPlay
+chargé dans RdAirPlay
 
 !SLIDE bullets workshop
 # RdLogEdit
@@ -236,8 +247,6 @@
 !SLIDE bullets
 # RdAdmin
 
-* Login: admin/
-
 ## Gérer
 
 * Groups
@@ -248,6 +257,11 @@
 !SLIDE bullets
 # RdAdmin
 
+* Login: admin/
+
+!SLIDE bullets imgside
+# RdAdmin
+
 ![Edition d'un Group](rdadmin-edit-group.png)
 
 ## Group
@@ -256,7 +270,7 @@
 * Now & Next
 * Reports
 
-!SLIDE bullets
+!SLIDE bullets imgside
 # RdAdmin
 
 ![Edition d'un Host](rdadmin-edit-host.png)
@@ -270,10 +284,11 @@
 
 !SLIDE bullets center
 # RdAdmin
+## RdAirPlay
 
 ![Paramétrage RdAirPlay](rdadmin-edit-host-rdairplay.png)
 
-!SLIDE bullets 
+!SLIDE bullets imgside
 # RdAdmin
 ## DropBoxes
 
@@ -288,15 +303,18 @@
 # RdAdmin
 
 * Créer un Group
+* Créer une DropBox
 * Définir un log de démarrage RdAirPlay
-* Créer un DropBoxe
 
 !SLIDE bullets
 # RdLogManager
-
 ## Génération de logs
 
 ![RdLogManager](rdlogmanager-grid.png)
+
+!SLIDE bullets
+# RdLogManager
+## Génération de logs
 
 * Grille
 * Clock
@@ -311,7 +329,7 @@
 * Pas de durée
 * Inclus dans des Clocks
 
-!SLIDE bullets
+!SLIDE bullets imgside
 # RdLogManager
 ## Clock
 
@@ -329,7 +347,7 @@
 * Emission (entre 40 minutes et 50 minutes)
 * De la musique jusqu'à la fin de l'heure
 
-!SLIDE smbullets
+!SLIDE smbullets imgside
 # RdLogManager
 ## Emission + Musique
 
@@ -349,7 +367,7 @@
 * Temps minimun
 * Temps moyen
 
-!SLIDE smbullets
+!SLIDE smbullets imgside
 # RdLogManager
 ## Musique + Jingle 1/4h
 
@@ -362,7 +380,7 @@
 * Jingle (Timed) à 15:00:0
 * Musique<br/>(jusqu'a 18:00:0) ...
 
-!SLIDE bullets
+!SLIDE bullets imgside
 # RdLogManager
 ## Avec Import Music
 
@@ -406,10 +424,6 @@
 * Pre-Import : Jingle Musique
 * Import : Music
 
-!SLIDE full-page
-
-![Modifier un Event](rdlogmanager-edit-event.png)
-
 !SLIDE bullets
 # RdLogManager
 ## Event JINGLE_H
@@ -417,22 +431,35 @@
 * Hard Start Time
 * Pre-Import : Jingle Radio
 
+!SLIDE full-page
+
+![Modifier un Event](rdlogmanager-edit-event.png)
+
 !SLIDE bullets
 # RdLogManager
 ## Grille / Grid
 
 ![RdLogManager](rdlogmanager-grid.png)
 
-* 24 clocks 
+* 24 clocks
 * 7 jours
+
+!SLIDE bullets workshop
+# RdLogManager
+
+* Créer une Clock MUSIC
+* Remplir la "semaine"
+* Générer un log
+* Complexifier une Clock
 
 !SLIDE bullets
 # Questions
-## Pour continuer la discussion
+
+Pour continuer la discussion
 
 * rivendell-fr@lists.tryphon.org
 * radio-logiciel-libre@lists.tryphon.org
-* http://www.tryphon.eu
+* http://tryphon.eu
 
 <div id="license">
   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -441,8 +468,8 @@
   <br/>
   <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">
     Rivendell - Ateliers
-  </span> 
-  par 
+  </span>
+  par
   <a xmlns:cc="http://creativecommons.org/ns#" href="http://tryphon.eu" property="cc:attributionName" rel="cc:attributionURL">Tryphon</a>
   <br/>
   Mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">licence Creative Commons by-nc-sa 3.0</a>.
